@@ -6,28 +6,31 @@ Wissenschaftliche Einordnung. Recherchestand: 11.10.2026.
 
 | Ordner | Inhalt |
 |---|---|
-| `01-literatur/` | Peer-reviewte Literatur, thematisch gegliedert (Begriffe, Technik, Wirkung, Kundenservice, Governance) |
-| `02-daten-oesterreich/` | KI-Nutzung in österreichischen Unternehmen (Statistik Austria) |
-| `03-grauliteratur-und-regulierung/` | METR, TheAgentCompany, Gartner, EU AI Act |
+| `01-wissenschaftliche-literatur/` | Peer-reviewte Literatur und akademische Working Paper: Begriffe, Agenten-Technik, Produktivität, Kundenservice, Governance, Arbeitsmarkt, KMU |
+| `02-studien-und-arbeitsmarkt/` | Studien von Institutionen, Beratern und Analysten: Eurostat, ILO, WEF, OECD, EIB/BIS, McKinsey, Gartner, Stanford, Microsoft, MIT NANDA |
+| `03-anthropic/` | Veröffentlichungen von Anthropic (Economic Index, Agenten-Autonomie, Experimente, Arbeitsmarkt), kritisch markiert |
+| `04-oesterreich/` | Nutzung, KMU, WKO-Umfragen, Potenziale, Förderung, nationale Regulierung, EU-Vergleich |
+| `05-entwicklung-und-regulierung/` | METR Time Horizon, Benchmarks, EU AI Act (Omnibus) |
+| `06-einordnung/` | **Was davon für den Vortrag relevant ist:** Kernbotschaften, Ausblick 1 bis 3 Jahre, Österreich, Zukunft der Arbeit, Wirkquadrat, Prüfliste |
 
-## Mögliche Argumentationslinie
+Einstieg: `06-einordnung/relevanz-fuer-den-vortrag.md`.
 
-1. **Begriffe klären:** Chatbot (Frage-Antwort) → KI-Agent (Tools, Einzelaufgabe) → Agentic AI (Planung, Gedächtnis, Multi-Agent). Quelle: Sapkota et al. 2025, Dwivedi et al. 2025.
-2. **Was die Evidenz zeigt:** Produktivitätsgewinne bei klar umrissenen Aufgaben (Cui 2026, Dell'Acqua 2026), aber ungleich verteilt und mit Qualitätsrisiko außerhalb der KI-Grenze („jagged frontier“). Bei Agenten selbst ist die kausale Evidenz noch dünn.
-3. **Zuverlässigkeit ist das Nadelöhr:** Benchmarks und Konsistenz (TheAgentCompany, Enterprise-Evaluationen), Sicherheit (Prompt-Injection).
-4. **Kundenseite:** Hybrid schlägt reiner Chatbot (Huang 2024, Markovitch 2024, Zhang 2025).
-5. **Organisation und Verantwortung:** Aufsicht, Specification Risk, Haftung (Zhu 2026, Basu 2026). Regulierung (EU AI Act, Zeitplan beachten).
-6. **Österreich:** 30 % KI-Nutzung, 77 % der Nichtnutzer haben es nicht erwogen.
+## Vorgaben aus dem Interview
+
+- Tiefe: Abstract und Kernzahlen; Vorbehalte markiert.
+- Anthropic: eigene Klasse, kritisch markiert.
+- Zeithorizont: 1 bis 3 Jahre.
+- Österreich-Fokus: KMU und Branchen, Regulierung und Förderung, EU-Vergleich.
 
 ## Wichtige Vorbehalte
 
-- Volltexte wurden **nicht gelesen**, nur Abstracts und Metadaten.
-- Preprints (arXiv) und Working Paper sind als solche gekennzeichnet.
-- Zahlen aus Sekundärquellen (Statistik Austria, Gartner, METR-Folgewerte) im Primärdokument gegenprüfen.
-- Die Recherche ist ein erster Durchgang, keine systematische Literaturübersicht.
+- Volltexte wurden **nicht gelesen**, nur Abstracts, Metadaten und Sekundärberichte.
+- Preprints (PP) und Working Paper (WP) sind gekennzeichnet; mit (G) markierte Angaben stammen aus Vorwissen und wurden nicht neu verifiziert.
+- Viele Zahlen stammen aus Sekundärquellen. Siehe Prüfliste in `06-einordnung/`.
+- Die Recherche wurde mit Claude (Anthropic) erstellt. Das ist bei Anthropic-Quellen ein Interessenkonflikt.
 
-## Nächste Schritte (Vorschlag)
+## Offen
 
-- Volltexte der 5 bis 8 Kernquellen lesen und DOIs verifizieren.
-- Lücken schließen: Arbeitsmarktstudien, McKinsey/Anthropic-Datenreports, KMU-Fokus.
-- Danach Folienstruktur (z. B. mit dem Skill `kommunikation-praesentation`).
+- Zuordnung auf das **Wirkquadrat** (Beschreibung fehlt noch).
+- Volltextprüfung der 8 bis 12 Kernquellen.
+- Folienstruktur.

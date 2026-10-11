@@ -73,4 +73,4 @@ Wichtig für die Einordnung: Die meisten kausalen Studien untersuchen **generati
 
 - **Peer-reviewte Feldexperimente zu *autonomen* Agenten im Unternehmenseinsatz fehlen weitgehend.** Das ist selbst eine Aussage für den Vortrag.
 - Viele Agenten-Arbeiten sind Surveys/Konzeptpapiere mit hoher Zitationszahl, aber geringer empirischer Basis.
-- Nicht recherchiert (offen): Arbeitsmarkteffekte/Exposure-Studien, Anthropic Economic Index, McKinsey State of AI, MIT-NANDA-Bericht, Klein- und Mittelbetriebe/KMU-Fokus.
+- Arbeitsmarkt, Exposition und KMU: siehe `arbeitsmarkt-und-oekonomie.md`. Institutionelle Studien: `../02-studien-und-arbeitsmarkt/`. Anthropic: `../03-anthropic/`.
