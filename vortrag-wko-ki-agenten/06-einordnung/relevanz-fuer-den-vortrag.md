@@ -81,9 +81,22 @@ Ein Chatbot beantwortet, ein Agent führt aus: Er plant, nutzt Werkzeuge und erl
 
 ## 5. Wirkquadrat
 
-**Offen:** Ich kenne dein Wirkquadrat noch nicht. Sobald du mir die beiden Achsen oder die vier Felder beschreibst, ordne ich die Kernbotschaften K1 bis K7 und die Quellen zu.
+Quelle: Roth, M. (2026): *The Impact Square: Four Levers of Human Responsibility from Conversational to Agentic AI.* SSRN Preprint, DOI 10.2139/ssrn.7408718. (Nur Abstract gelesen.)
 
-Zum Abgleich: Das WORKBank-Modell (Shao et al. 2025) nutzt ebenfalls ein Vierfeld aus **Wunsch der Beschäftigten × technischer Fähigkeit** (Automation „Green Light“, „Red Light“, R&D-Chance, niedrige Priorität). Falls dein Quadrat ähnlich gebaut ist, lohnt der Bezug. Falls nicht, kann der Unterschied selbst eine Folie wert sein.
+**Kernaussage laut Abstract:** Vier Hebel unter menschlicher Kontrolle: **Aufgabe, Modell, Kontext, Prompt.** Die Verantwortung für jeden Hebel und für das akzeptierte Ergebnis sinkt nicht mit der Kompetenz des Systems. Beim Übergang zu Agenten **wandern die Hebel nicht zum System**, sie ändern ihre Ausprägung in vier Dimensionen: **Häufigkeit, Reichweite, Sichtbarkeit, Korrekturkosten.**
+
+**Zuordnung der Befunde (Vorschlag, mit dem Volltext abgleichen):**
+
+| Hebel / Dimension | Passende Evidenz |
+|---|---|
+| Aufgabe | Jagged Frontier (Dell'Acqua): Fehler entstehen, wenn die Aufgabe jenseits der KI-Grenze liegt. Delegiert wird, was prüfbar ist (Anthropic, 0 bis 20 % voll delegierbar). WORKBank: Beschäftigte wollen H3-Partnerschaft. |
+| Modell | METR: Fähigkeit wächst schnell, aber 50 % ≠ 80 % Zuverlässigkeit. Modellwahl beeinflusst Kosten um bis zu Faktor 50 (CLEAR-Preprint). |
+| Kontext | Agenten brauchen Zugriff auf Daten und Systeme (Datenschutz-Hürde 46 % in der WKO-Umfrage). Prompt-Injection als Risiko des Kontexts. |
+| Prompt | Lernkurve: Erfahrene Nutzende rund 10 % erfolgreicher (Anthropic, März 2026). Größter Nutzen bei Neulingen (Brynjolfsson et al.). |
+| Häufigkeit ↓ / Reichweite ↑ | Agent erhält einen Auftrag, arbeitet stundenlang (METR, Anthropic-Autonomie-Studie). |
+| Sichtbarkeit ↓ | „Agenten irren und klingen überzeugend“; erfundene Tool-Aufrufe in Benchmarks; Fehlerfortpflanzung. |
+| Korrekturkosten ↑ | Fehler sind bereits ausgeführt, nicht nur formuliert. Specification Risk (Basu 2026). |
+| Verantwortung bleibt | Haftung beim Unternehmen; EU AI Act Art. 4 (KI-Kompetenz). |
 
 ## 6. Prüfliste vor dem Vortrag
 
