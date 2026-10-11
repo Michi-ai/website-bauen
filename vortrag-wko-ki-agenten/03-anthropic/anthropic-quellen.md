@@ -46,5 +46,14 @@ Stand: 11.10.2026. Quelle: Websuche, teils Sekundärberichte. Primärseiten unte
 | Roodman, D., Massenkoff, M. (Aug. 2026): *Reviewing the evidence on worker retraining programs.* [Link](https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs) | Meta-Analyse von 56 RCTs: Umschulung bringt nur **+1,7 bis 2,8 Prozentpunkte Beschäftigung.** Bei Verdrängung im großen Stil würden bestehende Programme nicht reichen. **Branchenspezifische Programme mit Arbeitgebern wirken deutlich besser.** | **A** (für WKO/Ausbildung sehr relevant; US-Daten plus europäische Experimente) |
 | Economic Futures Research Fund (Juli 2026) | Anthropic sagt 200 Mio. $ für externe Forschung zu wirtschaftlichen KI-Folgen zu. | C |
 
+## 5. Nachtrag (Primärseiten gelesen, 11.10.2026)
+
+| Veröffentlichung | Kernaussage | Relevanz |
+|---|---|---|
+| Massenkoff, M., McCrory, P. (05.03.2026): *Labor market impacts of AI: A new measure and early evidence.* | „Observed exposure“: Informatik/Mathe 94 % theoretisch, 33 % genutzt; Büro 90 % theoretisch. Kein systematischer Anstieg der Arbeitslosigkeit; Einstiegsrate Junger (22–25) in exponierte Berufe rund −14 %, knapp signifikant. | **A** (Folie „Potenzial vs. Realität“) |
+| Project Swap (24.09.2026) | Agenten tauschen Bücher für 201 Beschäftigte. Präferenzen zu 61 % richtig erfasst. **85 % des Effizienzverlusts durch ungenaue Präferenzen, 15 % durch das Handeln selbst.** Stärkere Modelle effizienter; Modellwahl wichtiger als „hart“ oder „sozial“ verhandeln. Delegationsbereitschaft sinkt, wenn das Erstgespräch etwas übersehen hat (23 % vs. 34 % des Budgets). | **A** (Beleg für das Wirkquadrat: Kontext und Aufgabe) |
+| Legate-Yang, R., Massenkoff, M. (30.09.2026): *What work can robots do?* | LLM allein rund 50 % der Arbeit exponiert, mit Robotern rund 81 %. Roboter schaffen 74 % der körperlichen Aufgaben, aber meist nur in eingerichteten Umgebungen. Nur bei 0,3 % der Aufgaben heute günstiger als Menschen; bei 3 % Preisverfall pro Jahr rund 40 Jahre bis 10 %. | B (Reserve) |
+| Korinek, A., Jones, C. et al. (Sept. 2026): *Scenarios for our Economic Future.* | Drei Szenarien bis 2030 (USA): BIP +1,6 % / +8,3 % / +32,4 %. Arbeitslosigkeit in den ersten beiden im historischen Rahmen. Löhne von Wissensarbeitenden im mittleren Szenario etwa stagnierend. Ausdrücklich ein unfertiges Modell. | B (für Rückfragen) |
+
 ## Was fehlt
 - Österreich-Daten im Economic Index (AUI-Wert, Aufgabenmix) wurden nicht gefunden. Die Ländertabellen im Bericht oder im [Hugging-Face-Datensatz](https://huggingface.co/datasets/Anthropic/EconomicIndex) prüfen.

@@ -13,7 +13,9 @@ Wissenschaftliche Einordnung. Recherchestand: 11.10.2026.
 | `05-entwicklung-und-regulierung/` | METR Time Horizon, Benchmarks, EU AI Act (Omnibus) |
 | `06-einordnung/` | **Was davon für den Vortrag relevant ist:** Kernbotschaften, Ausblick 1 bis 3 Jahre, Österreich, Zukunft der Arbeit, Wirkquadrat, Prüfliste |
 
-Einstieg: `06-einordnung/relevanz-fuer-den-vortrag.md`.
+| `07-roter-faden/` | **Roter Faden für Deck v6 → v7:** Folienplan (10 Folien), Faktencheck aller v6-Zahlen, Antworten auf Publikumsfragen |
+
+Einstieg für die Folienarbeit: `07-roter-faden/roter-faden.md`. Hintergrund: `06-einordnung/relevanz-fuer-den-vortrag.md`.
 
 ## Vorgaben aus dem Interview
 
