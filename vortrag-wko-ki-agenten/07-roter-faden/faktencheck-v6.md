@@ -37,3 +37,7 @@ Stand: 11.10.2026. Jede Zahl der v6-Folien geprüft, soweit Quellen erreichbar w
 - „47 % der Unternehmen“ (siehe oben)
 - „62 % experimentieren“ (Summe aus zwei Gruppen)
 - Ohne Zusatz „Studie zeigt“ bei Anthropic-Zahlen. Besser: „Anthropic, also ein Hersteller, hat gemessen …“
+
+## Formale Kleinigkeit
+
+- **E-Mail-Adressen uneinheitlich:** Folie 13 nennt `michael.roth@fh-kaernten.at`, Folie 14 `m.roth@fh-kaernten.at`, das Paper `m.roth@cuas.at`. Auf eine Adresse vereinheitlichen.

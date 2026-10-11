@@ -91,36 +91,52 @@ Vorschlag für die drei Kacheln:
 
 **Überleitung:** „Wenn die KI immer länger allein arbeitet: Was bleibt dann beim Menschen?“
 
-### Folie 8: Das KI-Wirkquadrat · 1:30 *(v6 Folie 11)*
-**Kernsatz:** Vier Hebel liegen beim Menschen: Aufgabe, Modell, Kontext, Prompt. In der Mitte steht der Mensch, der definiert, prüft und verantwortet.
-- Typischer Fehler: beim Modell starten („Wir brauchen Copilot“) statt bei der Aufgabe.
-- Bezug zur gezackten Grenze: Wer die Aufgabe sauber klärt, merkt eher, ob sie drinnen oder draußen liegt.
+### Folie 8: Das KI-Wirkquadrat · 1:30 *(v6 Folie 11, geschärft)*
+**Kernsatz:** Vier Hebel liegen beim Menschen: Aufgabe, Modell, Kontext, Prompt. In der Mitte steht der Mensch, der alle vier setzt und für das verantwortlich ist, was er akzeptiert.
 
+Was aus dem Paper auf die Folie oder in den Sprechtext gehört:
+- **Die Reihenfolge ist ein Argument** (Abschnitt 4): Aufgabe → Modell → Kontext → Prompt. Der Prompt ist der *am stärksten bedingte* Hebel und wirkt nur in dem Raum, den die anderen drei lassen. Für das Publikum: **„Ein guter Prompt rettet keine falsch gewählte Aufgabe.“** Damit kehrst du die gängige Prompt-Engineering-Erzählung um, das ist die unmittelbar nützlichste Aussage des Frameworks.
+- **Harte Grenze bei der Aufgabe** (Abschnitt 6.1): Die Aufgabe entscheidet über die *Wirksamkeit* (das Richtige tun), die anderen drei über die *Effizienz*. Fehler bei der Aufgabe kann kein anderer Hebel ausgleichen. In deiner Abbildung ist das die dickere Oberkante.
+- **Bewerten ist kein fünfter Hebel:** „Die vier Hebel sind, was der Mensch *setzt*. Das Bewerten ist, was er *schuldet*.“ Es ist zugleich der Schritt, der am häufigsten ausgelassen wird.
+- **Bild für das Publikum:** der Dirigent. Er spielt keinen Ton, aber er bestimmt, was gespielt wird, von wem, unter welchen Bedingungen, und beurteilt das Ergebnis.
+
+**Leitfragen (aus Tabelle 2):**
+| Hebel | Leitfrage |
+|---|---|
+| Aufgabe | Ist das etwas, woran das System überhaupt arbeiten könnte? Was genau soll erreicht werden, für wen, und wann ist es gut genug? |
+| Modell | Welches System passt zu dieser Aufgabe? |
+| Kontext | Was muss das System bekommen, das es nicht wissen kann? |
+| Prompt | Wie muss der Auftrag formuliert sein? |
+
+**Beleg, der gut zum Publikum passt:** Jahani et al. (2026, Preprint, 3.750 Teilnehmende): Etwa die Hälfte des Leistungsgewinns durch ein besseres Modell kam erst dadurch zustande, dass die Nutzer ihre Eingaben anpassten. Automatisches Umschreiben der Prompts konnte das nicht ersetzen.
 **Quelle auf die Folie:** Roth (2026), *The Impact Square*, SSRN, DOI 10.2139/ssrn.7408718.
 **Überleitung:** „Die entscheidende Frage für heute: Was passiert mit diesen Hebeln, wenn aus dem Chatbot ein Agent wird?“
 
 ### Folie 9 (neu): Die Hebel bleiben, sie verändern sich · 2:30 *(ersetzt v6 Folie 8 „Wo es hakt“)*
-**Kernsatz (aus deinem Paper):** Die Hebel wandern nicht zur Maschine. Sie verändern ihre Form, und die Verantwortung sinkt nicht mit der Kompetenz des Systems.
+**Kernsatz (Abschnitt 5.4, sinngemäß):** Die vier Hebel wandern nicht zur Maschine. Was sich ändert, ist ihre Ausprägung: wie oft sie gesetzt werden, wie weit sie wirken, wie sichtbar sie sind und wie teuer es ist, sie zu korrigieren.
 
-Inhalt der Folie:
+Folieninhalt nach Tabelle 3 des Papers:
 
 | | Chatbot | Agent |
 |---|---|---|
-| **Häufigkeit** | bei jeder Frage | einmal, am Anfang |
-| **Reichweite** | eine Antwort | viele Schritte |
-| **Sichtbarkeit** | ich sehe jedes Ergebnis | Zwischenschritte verborgen |
-| **Korrekturkosten** | nächste Frage stellen | Fehler ist schon ausgeführt |
+| **Häufigkeit** | bei jeder Eingabe | einmal, bei der Einrichtung |
+| **Reichweite** | eine Antwort | viele Handlungen in einer Kette |
+| **Sichtbarkeit** | im Chatverlauf lesbar | in der Konfiguration verborgen |
+| **Korrigierbarkeit** | in der nächsten Runde | erst später, Ursache schwer zu finden |
+| **Typischer Fehler** | häufig, klein, korrigiert sich selbst | **selten, groß, spät entdeckt** |
 
-*Spaltenwerte aus dem Abstract abgeleitet, bitte mit dem Volltext abgleichen.*
+**Pointe der Folie (Abschnitt 5.2):** „Die Hebel wirken stärker und sind schlechter sichtbar. Genau das ist das besondere Risiko agentischer Arbeit.“
 
-**Neuer, frischer Beleg dazu: Anthropic „Project Swap“ (24.09.2026, geprüft).** Agenten tauschten im Auftrag von 201 Personen Bücher. Das Ergebnis lag deutlich unter dem Möglichen. **Rund 85 % dieses Verlusts gingen darauf zurück, dass der Agent die Wünsche der Menschen nicht genau genug kannte. Nur rund 15 % gingen auf das Verhandeln selbst zurück.** Das ist der Hebel Kontext beziehungsweise Aufgabe in Reinform: Nicht die Ausführung scheitert, sondern das Briefing.
-*Vorbehalt:* Anthropic-Beschäftigte als Teilnehmende, Bücher statt Geschäftsentscheidungen, Herstellerstudie.
+Optional als kleine Zeile darunter, wie die Hebel beim Agenten aussehen: Aufgabe = Zweck des Agenten · Modell = System und erlaubte Werkzeuge · Kontext = Wissensbasis und Datenzugriff · Prompt = Arbeitsanweisungen.
+
+**Frischer Beleg dazu:** Anthropic „Project Swap“ (24.09.2026): Agenten tauschten für 201 Personen Bücher. Rund 85 % des Verlusts gegenüber dem bestmöglichen Ergebnis gingen darauf zurück, dass der Agent nicht genau genug wusste, was die Menschen wollten. Nur rund 15 % gingen auf das Verhandeln selbst zurück. Das sind Aufgabe und Kontext, gesetzt beim Einrichten. *Vorbehalt:* Herstellerstudie, Teilnehmende waren Anthropic-Beschäftigte, Bücher statt Geschäftsentscheidungen.
 
 **Die drei „Haken“ aus v6 Folie 8 gehen hier auf:**
-- „Agenten irren und klingen überzeugend“ → Sichtbarkeit
-- „Wer handelt, braucht Zugriff auf Daten und Systeme“ → Reichweite und Kontext (Datenschutz-Bremse 46 %)
-- „Verantwortung lässt sich nicht delegieren“ → Kernsatz, dazu EU AI Act Art. 4: Unternehmen müssen Maßnahmen zur KI-Kompetenz setzen (seit Omnibus abgeschwächt formuliert, aber weiter verpflichtend)
+- „Agenten irren und klingen überzeugend“ → Sichtbarkeit. Aus dem Paper: Erklärungen erhöhen die Akzeptanz von KI-Empfehlungen auch dann, wenn sie falsch sind (Bansal et al. 2021). Flüssige Ergebnisse nehmen die Reibung weg, die früher Prüfung ausgelöst hat.
+- „Wer handelt, braucht Zugriff auf Daten und Systeme“ → Reichweite und Kontext (Datenschutz-Bremse 46 % in der WKÖ-Umfrage)
+- „Verantwortung lässt sich nicht delegieren“ → **Verantwortungsthese:** Der Mensch ist für die vier Einstellungen und für die Angemessenheit des akzeptierten Ergebnisses verantwortlich, und das wird nicht weniger, wenn das System besser wird. Nicht für jede Folge in einer langen Kette, aber für das, was er eingestellt und durchgewinkt hat. Dazu passt EU AI Act Art. 4: Maßnahmen zur KI-Kompetenz sind Pflicht.
 
+**Praktische Konsequenz, die Unternehmer mitnehmen können (Abschnitt 3.2, 6.1):** Schreiben Sie auf, wie Ihr Agent eingestellt ist. Wer nicht sagen kann, was bei den vier Hebeln eingestellt wurde, kann Fehler weder finden noch verantworten.
 **Überleitung:** „Was heißt das für Sie morgen im Betrieb? Drei Fragen.“
 
 ### Folie 10: Drei Fragen zum Mitnehmen + Schlusssatz · 1:30 *(v6 Folien 12 und 13 zusammengelegt)*

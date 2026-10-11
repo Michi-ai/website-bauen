@@ -1,7 +1,7 @@
 # Sprechernotizen für v7 (zum Einfügen in PowerPoint)
 
 Stand: 11.10.2026. Format wie in v6: Zeitmarke, Sprechtext, danach Hinweise für Rückfragen.
-Folie 9 ist **vorläufig**, bis die Dimensionen mit dem Volltext des Wirkquadrat-Papers abgeglichen sind.
+Folien 8 und 9 sind mit dem Volltext des Wirkquadrat-Papers (Stand 03.09.2026) abgeglichen.
 
 ---
 
@@ -72,28 +72,30 @@ Ehrlich dazugesagt: Software- und Forschungsaufgaben, bei 50 % Erfolgsquote. Ob 
 ## Folie 8: Das KI-Wirkquadrat
 
 [9:15] Wenn die KI immer länger allein arbeitet: Was bleibt dann beim Menschen?
-Meine Antwort ist das KI-Wirkquadrat aus meiner Forschung an der FH. Vier Hebel liegen beim Menschen:
-**Aufgabe:** Was genau soll erledigt werden?
-**Modell:** Welches Werkzeug passt dazu?
-**Kontext:** Welche Informationen und Daten braucht es?
+Meine Antwort ist das KI-Wirkquadrat aus meiner Forschung an der FH. Vier Hebel liegen beim Menschen, und zwar in dieser Reihenfolge:
+**Aufgabe:** Was genau soll erreicht werden, für wen, und wann ist es gut genug?
+**Modell:** Welches System passt zu dieser Aufgabe?
+**Kontext:** Was muss das System bekommen, das es nicht wissen kann?
 **Prompt:** Wie formuliere ich den Auftrag?
-In der Mitte steht der Mensch. Er definiert, prüft und verantwortet.
-Der typische Fehler: Man startet beim Modell, „Wir brauchen Copilot!“, statt bei der Aufgabe.
+Die Reihenfolge ist kein Zufall. Der Prompt kommt zuletzt, weil er nur in dem Raum wirkt, den die anderen drei lassen. Alle reden über Prompts. Aber ein guter Prompt rettet keine falsch gewählte Aufgabe.
+In der Mitte steht der Mensch, wie ein Dirigent: Er spielt keinen Ton, aber er bestimmt, was gespielt wird, und er beurteilt das Ergebnis. Dieses Bewerten ist kein fünfter Hebel. Die Hebel sind, was wir setzen. Das Bewerten ist, was wir schulden.
 
-*Rückfrage-Hinweis:* Roth (2026), The Impact Square, SSRN, DOI 10.2139/ssrn.7408718.
+*Rückfrage-Hinweise:* Roth (2026), The Impact Square, SSRN, DOI 10.2139/ssrn.7408718. Harte Grenze: Fehler bei der Aufgabe kann kein anderer Hebel ausgleichen; Modell, Kontext und Prompt gleichen sich nur teilweise aus. Jahani et al. (2026, Preprint, 3.750 Teilnehmende): Rund die Hälfte des Gewinns aus einem besseren Modell entstand erst durch angepasste Eingaben der Nutzer; automatisches Prompt-Umschreiben ersetzte das nicht.
 
-## Folie 9: Die Hebel bleiben, sie verändern sich *(vorläufig)*
+## Folie 9: Die Hebel bleiben, sie verändern sich
 
 [10:45] Und jetzt die entscheidende Frage: Was passiert mit diesen vier Hebeln, wenn aus dem Chatbot ein Agent wird?
-Die naheliegende Annahme wäre: Der Agent übernimmt sie. Meine These ist: Nein. Die Hebel wandern nicht zur Maschine, sie verändern ihre Form.
-Beim Chatbot stelle ich sie **bei jeder Frage** neu ein. Beim Agenten **einmal am Anfang**, und dann wirken sie über **viele Schritte**.
-Beim Chatbot **sehe ich** jedes Ergebnis. Beim Agenten bleiben Zwischenschritte **verborgen**.
-Und wenn beim Chatbot etwas falsch ist, stelle ich die nächste Frage. Beim Agenten ist der Fehler **schon ausgeführt**: die E-Mail verschickt, die Bestellung ausgelöst.
-Dazu ein brandneues Experiment von Anthropic: Agenten haben für 201 Menschen Bücher getauscht. Das Ergebnis lag deutlich unter dem Möglichen. Woran lag es? Zu 85 % daran, dass der Agent die Wünsche der Menschen nicht genau genug kannte, und nur zu 15 % am Verhandeln selbst.
-Nicht die Ausführung scheitert, sondern das Briefing.
-Deshalb: Die Verantwortung sinkt nicht, nur weil das System besser wird. Das sieht auch der EU AI Act so: Unternehmen müssen Maßnahmen setzen, damit ihr Team KI kompetent nutzt.
+Die naheliegende Annahme: Der Agent übernimmt sie. Meine These: Nein. Die Hebel wandern nicht zur Maschine. Sie verändern ihre Form, und zwar in vier Richtungen.
+**Häufigkeit:** Beim Chatbot setze ich sie bei jeder Eingabe. Beim Agenten einmal, bei der Einrichtung.
+**Reichweite:** Beim Chatbot wirkt eine Einstellung auf eine Antwort. Beim Agenten auf eine ganze Kette von Handlungen.
+**Sichtbarkeit:** Beim Chatbot steht alles im Verlauf. Beim Agenten steckt es in einer Konfiguration, die man vielleicht wochenlang nicht mehr ansieht.
+**Korrigierbarkeit:** Beim Chatbot korrigiere ich in der nächsten Runde. Beim Agenten merke ich den Fehler später, und dann ist schwer zu sagen, woher er kam.
+Das Ergebnis: Beim Chatbot sind Fehler häufig, klein und korrigieren sich selbst. Beim Agenten sind sie selten, groß und werden spät entdeckt.
+Die Hebel wirken also stärker und sind schlechter sichtbar. Das ist das eigentliche Risiko agentischer Arbeit.
+Dazu ein ganz neues Experiment von Anthropic: Agenten haben für 201 Menschen Bücher getauscht. Das Ergebnis lag deutlich unter dem Möglichen. Woran lag es? Zu 85 % daran, dass der Agent nicht genau genug wusste, was die Menschen wollten. Nur zu 15 % am Verhandeln selbst. Nicht die Ausführung scheitert, sondern das Briefing.
+Deshalb gilt: Die Verantwortung sinkt nicht, nur weil das System besser wird. Ganz praktisch heißt das: Schreiben Sie auf, wie Ihr Agent eingestellt ist. Wer das nicht sagen kann, kann Fehler weder finden noch verantworten.
 
-*Rückfrage-Hinweise:* Project Swap, Anthropic, 24.09.2026: Herstellerstudie, Teilnehmende waren Anthropic-Beschäftigte, Bücher statt Geschäftsentscheidungen. AI Act Art. 4 gilt seit 02.02.2025; seit Omnibus (VO 2026/1744) kein bestimmtes Niveau mehr vorgeschrieben, Pflicht zu Maßnahmen bleibt.
+*Rückfrage-Hinweise:* Tabelle 3 und Abschnitt 5.2 im Paper. Verantwortung gilt für die Einstellungen und das akzeptierte Ergebnis, nicht für jede Folge in einer langen Kette (Abschnitt 3.2). Project Swap, Anthropic, 24.09.2026: Herstellerstudie mit Anthropic-Beschäftigten. Ironie der Automatisierung (Bainbridge 1983): Je besser das System, desto wichtiger der verbleibende menschliche Beitrag. EU AI Act Art. 4: Maßnahmen zur KI-Kompetenz sind Pflicht, seit Omnibus ohne vorgeschriebenes Niveau.
 
 ## Folie 10: Drei Fragen zum Mitnehmen
 

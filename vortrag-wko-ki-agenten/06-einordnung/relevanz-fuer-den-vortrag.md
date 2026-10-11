@@ -93,9 +93,9 @@ Quelle: Roth, M. (2026): *The Impact Square: Four Levers of Human Responsibility
 | Modell | METR: Fähigkeit wächst schnell, aber 50 % ≠ 80 % Zuverlässigkeit. Modellwahl beeinflusst Kosten um bis zu Faktor 50 (CLEAR-Preprint). |
 | Kontext | Agenten brauchen Zugriff auf Daten und Systeme (Datenschutz-Hürde 46 % in der WKO-Umfrage). Prompt-Injection als Risiko des Kontexts. |
 | Prompt | Lernkurve: Erfahrene Nutzende rund 10 % erfolgreicher (Anthropic, März 2026). Größter Nutzen bei Neulingen (Brynjolfsson et al.). |
-| Häufigkeit ↓ / Reichweite ↑ | Agent erhält einen Auftrag, arbeitet stundenlang (METR, Anthropic-Autonomie-Studie). |
+| Häufigkeit ↓ / Reichweite ↑ (Tab. 3) | Agent erhält einen Auftrag, arbeitet stundenlang (METR, Anthropic-Autonomie-Studie). |
 | Sichtbarkeit ↓ | „Agenten irren und klingen überzeugend“; erfundene Tool-Aufrufe in Benchmarks; Fehlerfortpflanzung. |
-| Korrekturkosten ↑ | Fehler sind bereits ausgeführt, nicht nur formuliert. Specification Risk (Basu 2026). |
+| Korrigierbarkeit ↓ | Fehler sind bereits ausgeführt, nicht nur formuliert. Specification Risk (Basu 2026). |
 | Verantwortung bleibt | Haftung beim Unternehmen; EU AI Act Art. 4 (KI-Kompetenz). |
 
 ## 6. Prüfliste vor dem Vortrag
